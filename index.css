@@ -1,6 +1,33 @@
-
-
-.footer {
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #7e8187;
+}
+.header{
     text-align: center;
-    background-color: blue;
+}
+.contact-list{
+    position: relative;
+    z-index: 5;
+}
+.footer {
+
+    margin: auto;
+    padding: 1%;
+    text-align: right;
+    background-color: orange;
+}
+
+#background-image{
+    z-index: 1;
+    position: fixed;
+}
+
+#footer-info{
+    background-color: orange;
 }
