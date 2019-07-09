@@ -8,6 +8,10 @@ html, body{
     padding: 0;
     background-color: #7e8187;
 }
+.grid {
+    display: grid;
+}
+
 .header{
     text-align: center;
 }
